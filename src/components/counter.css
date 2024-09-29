@@ -1,0 +1,32 @@
+.counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:2rem;
+    margin-top: 5rem;
+    
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+
+}
+
+button{
+    padding: .7rem;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: .4rem;
+}
+.inc{
+    background-color: rgb(0, 0, 117);
+}
+.dnc{
+    background-color: rgb(134, 1, 1);
+}
+
